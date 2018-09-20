@@ -1,15 +1,11 @@
 {
-  "name": "Ask Jeeves, Again",
+  "manifest_version": 2,
+  "name": "ASk Jeeves...Again",
   "description": "Jeeves retired back in 2006, but, now, he is back. Get your search results from the oldest player in the game, eventually... ",
   "version": "1.0",
-  "manifest_version": 2,
-  "background": {
-    "scripts": [ "main.js" ]
-  },
-  "browser_action": {},
+  "minimum_chrome_version": "20",
   "permissions": [
-    "contextMenus",
-    "http://*.wikipedia.org/*",
-    "https://*.wikipedia.org/*"
-  ]
+  "contextMenus",
+  "tabs"],
+  "background": {"page": "background.html"}
   }
