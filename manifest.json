@@ -1,0 +1,19 @@
+{
+  "name": "ASk Jeeves, Again",
+  "description": "Jeeves retired back in 2006, but, now, he is back. Get your search results from the oldest player in the game, eventually... ",
+  "version": "1.0",
+  "manifest_version": 1,
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": [ "main.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "",
+    "48": "",
+  "128": ""
+  }
+}
